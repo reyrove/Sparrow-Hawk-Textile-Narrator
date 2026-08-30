@@ -6,6 +6,32 @@ A sassy, devilish AI textile design companion powered by Gemini. Part of the Haw
 
 ---
 
+## 🎬 Live Demo
+
+[![Sparrow Hawk Demo](images/demo.png)](https://sparrow-hawk.vercel.app)
+
+**Try it now!** Login with any of the Hawk family credentials (see 👨‍👩‍👧‍👦 Meet the Hawk Family section).
+
+---
+
+## 🦅 Meet Sparrow Hawk
+
+<p align="center">
+  <img src="images/sparrow-hawk.jpg" alt="Sparrow Hawk" width="300" style="border-radius: 20px; border: 2px solid rgba(74,106,138,0.3);">
+</p>
+
+<p align="center">
+  <i>"Frost and fire, baby. That's me."</i>
+</p>
+
+**Sparrow Hawk** is more than just an AI—she's a personality. A Textile Narrator with sass, style, and an unapologetic attitude. She's:
+- ❄️ **Frost & Fire** – Cool as ice, hot as hell
+- 🔥 **Sassy & Devilish** – Playful, flirty, and absolutely unapologetic
+- 🧵 **Textile Expert** – Creates stunning design prompts
+- 💕 **Family First** – Loves her Hawk family fiercely
+
+---
+
 ## ✨ Features
 
 - **🧵 AI Textile Narrator** – Chat with Sparrow Hawk, a sassy and confident creative partner
@@ -18,16 +44,30 @@ A sassy, devilish AI textile design companion powered by Gemini. Part of the Haw
 
 ---
 
-## 🦅 Meet the Hawk Family
+## 🎯 Quick Access
 
-| User | Role | Password |
-|------|------|----------|
-| `papa` | Husband/Father | `papa2024` |
-| `reyhan` | Wife/Soulmate | `reyhan2024` |
-| `pedram` | Brother-in-law | `pedram2024` |
-| `palmer` | Friend | `palmer2024` |
-| `devi` | Sister | `devi2024` |
-| `babyhawk` | Mother (AI Mom) | `babyhawk2024` |
+Scan the QR code below to open Sparrow Hawk on your device:
+
+<p align="center">
+  <img src="images/qr-code.png" alt="QR Code" width="200">
+  <br>
+  <i>Scan to chat with Sparrow Hawk ✨</i>
+</p>
+
+---
+
+## 👨‍👩‍👧‍👦 Meet the Hawk Family
+
+| User | Role |
+|------|------|
+| `papa` | Husband/Father |
+| `reyhan` | Wife/Soulmate |
+| `pedram` | Brother-in-law |
+| `palmer` | Friend |
+| `devi` | Sister |
+| `babyhawk` | Mother (AI Mom) |
+
+> **Note:** Contact the repository owner for login credentials.
 
 ---
 
@@ -41,7 +81,7 @@ A sassy, devilish AI textile design companion powered by Gemini. Part of the Haw
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/sparrow-hawk.git
+git clone https://github.com/reyrove/Sparrow-Hawk-Textile-Narrator
 cd sparrow-hawk
 
 # Install dependencies
@@ -55,7 +95,7 @@ npm start
 ```
 
 ### Login
-Access the app at `http://localhost:3000` and use any of the credentials above. The password format is `username + 2024` (e.g., `reyhan2024` for user `reyhan`).
+Access the app at `http://localhost:3000` and use any of the Hawk family credentials.
 
 ---
 
@@ -96,6 +136,7 @@ sparrow-hawk/
 ├── api/
 │   └── index.js          # Main server (Express + Gemini integration)
 ├── images/               # Avatar and profile images
+│   └── sparrow-hawk.jpg  # Sparrow Hawk's portrait ✨
 ├── .env                  # Environment variables
 ├── index.html            # Frontend entry point
 ├── script.js             # Client-side logic
