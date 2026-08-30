@@ -8,7 +8,7 @@ A sassy, devilish AI textile design companion powered by Gemini. Part of the Haw
 
 ## 🎬 Live Demo
 
-[![Sparrow Hawk Demo](images/demo.png)](https://sparrow-hawk.vercel.app)
+[![Sparrow Hawk Demo](images/demo.png)](https://sparrow-hawk-textile-narrator.vercel.app/)
 
 **Try it now!** Login with any of the Hawk family credentials (see 👨‍👩‍👧‍👦 Meet the Hawk Family section).
 
