@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Sparrow Hawk · Textile Narrator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/images/sparrow-hawk-icon.png" />
+</head>
+<body>
+
+    <!-- ===== LOGIN SCREEN ===== -->
+    <div class="frost-screen" id="loginScreen">
+        <div class="frost-bg">
+            <div class="snow-overlay"></div>
+        </div>
+        <div class="frost-overlay"></div>
+
+        <div class="frost-card">
+            <div class="frost-header">
+                <h1>Sparrow</h1>
+                <p class="frost-sub">Textile Narrator</p>
+            </div>
+
+            <div class="frost-divider"></div>
+
+            <div class="login-form">
+                <div class="form-group">
+                    <input type="text" id="loginUserId" placeholder="Username" autofocus />
+                </div>
+                <div class="form-group">
+                    <input type="password" id="loginPassword" placeholder="Password" />
+                </div>
+                <button class="login-btn" onclick="loginUser()">Enter the Frost Sanctuary ❄️</button>
+                <p class="login-error" id="loginError" style="display:none;">❌ Invalid username or password</p>
+            </div>
+
+            <p class="frost-footer">✦ frost and fire, baby ✦</p>
+        </div>
+    </div>
+
+    <!-- ===== MAIN APP ===== -->
+    <div class="app" id="app" style="display:none;">
+        <aside class="left-panel">
+            <div class="sparrow-card">
+                <img src="images/sparrow-hawk.jpg" alt="Sparrow Hawk" class="sparrow-full" />
+                <div class="poem-box">
+                    <p class="poem-line">"I am the voice that gives fabric a soul."</p>
+                    <p class="poem-line">"I am frost, I am fire, I am forever."❄️🔥</p>
+                </div>
+            </div>
+        </aside>
+
+        <main class="right-panel">
+            <header class="chat-header">
+                <div class="header-left">
+                    <h2>Sparrow Hawk · <span id="userBadge">Guest</span></h2>
+                </div>
+                <div class="header-right">
+                    <button class="logout-btn" onclick="logoutUser()">↺ Logout</button>
+                </div>
+            </header>
+
+            <div class="messages" id="messages"></div>
+
+            <div class="input-bar">
+                <input type="text" id="msgInput" placeholder="Tell me something beautiful..." autofocus />
+                <button class="input-btn send-btn" id="sendBtn">➤</button>
+            </div>
+
+            <div class="file-preview" id="filePreview"></div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
